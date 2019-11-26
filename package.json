@@ -1,0 +1,27 @@
+{
+  "name": "pft-junk-service",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "body-parser": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "A service for handling unused endpoints",
+  "main": "server.js",
+  "devDependencies": {
+    "cors": "^2.8.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meer-Cats/pft-junk-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meer-Cats/pft-junk-service/issues"
+  },
+  "homepage": "https://github.com/Meer-Cats/pft-junk-service#readme"
+}
